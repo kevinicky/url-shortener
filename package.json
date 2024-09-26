@@ -5,16 +5,16 @@
   "main": "index.js",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^4.1.1",
     "monk": "^7.3.2",
     "morgan": "^1.10.0",
     "nanoid": "^3.1.12",
-    "yup": "^0.29.3",
-    "dotenv": "^8.2.0"
+    "yup": "^0.29.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^3.1.7"
   },
   "scripts": {
     "start": "node index.js",
